@@ -40,7 +40,7 @@ Product.init(
       }
 
     },
-
+    // is this many to many?
     category_id: {
       type: DataTypes.INTEGER,
       references: {
