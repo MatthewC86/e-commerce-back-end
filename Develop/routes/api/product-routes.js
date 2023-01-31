@@ -44,7 +44,7 @@ res.status(500).json(err);
 router.post('/', async (req, res) => {
   // req.body should look like this...
   try {
-    const categoryData = await Product.create(req.body, {
+    const productData = await Product.create(req.body, {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
