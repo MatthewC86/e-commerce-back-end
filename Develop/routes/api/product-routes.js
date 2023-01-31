@@ -44,14 +44,14 @@ res.status(500).json(err);
 router.post('/', async (req, res) => {
   // req.body should look like this...
   try {
-    const categoryData = await Location.create(req.body, {
+    const categoryData = await Product.create(req.body, {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
       tagIds: [1, 2, 3, 4]
     });
-    
-    res.status(200).json(categoryData);
+
+    res.status(200).json(productData);
   } catch (err) {
     res.status(400).json(err);
   }
