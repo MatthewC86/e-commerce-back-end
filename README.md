@@ -31,5 +31,11 @@
 
   ## License
   [![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![image](https://user-images.githubusercontent.com/114010089/216436505-ad50eeae-ce12-4f8a-8b85-d0bb9b14759d.png)
+  ![image](https://user-images.githubusercontent.com/114010089/216436563-cf626a40-ab13-4dee-8506-40ca183a2857.png)
+  ![image](https://user-images.githubusercontent.com/114010089/216436613-bbd8a252-2ed8-4e85-8e26-266144cdeb1e.png)
+
+
+
 
   Video: https://drive.google.com/file/d/1F9agGNc-l39sHyIPhCefEKYfHsx0YKVM/view
