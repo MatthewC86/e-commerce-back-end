@@ -33,14 +33,12 @@ Product.init(
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      // is default value correct?
       defaultValue: 10,
       validate: {
         isNumeric: true,
       }
 
     },
-    // is this many to many?
     category_id: {
       type: DataTypes.INTEGER,
       references: {

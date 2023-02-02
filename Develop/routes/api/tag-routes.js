@@ -21,7 +21,7 @@ router.get('/:id', async (req, res) => {
   try {
     const tagData = await Tag.findByPk(req.params.id, {
   // be sure to include its associated Product data
-  include: [{ model: Product }],
+  include: [{ model: Product, through: ProductTag }],
 });
 
 if (!tagData) {
@@ -49,13 +49,13 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
-    const tagData = await User.update(req.body, {
+    const tagData = await Tag.update(req.body, {
       where: {
         id: req.params.id,
       },
       individualHooks: true
     });
-    if (!userData[0]) {
+    if (!tagData[0]) {
       res.status(404).json({ message: 'No tag with this id!' });
       return;
     }
