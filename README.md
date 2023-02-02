@@ -13,8 +13,9 @@
   This is a program used to delete, create, update and view information within a db.
 
   ## Installation
-  Express and Sequelize. 
-
+  Express <br>
+  Sequelize<br>
+  MySQL2
   ## Usage
   To edit or view db info.
 
